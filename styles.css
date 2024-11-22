@@ -144,15 +144,15 @@ ul#topnav li a:hover {
 	color: #111;
 }
   hr {
-	height: 1px;
-	background-color: rgb(20, 184, 175);
+	height: 0.5px;
+	background-color: rgb(29, 29, 29);
 	border: none;
   }
 
 #sidebar {
 	background: #fff;
 	float: right;
-	width: 200px;
+	width: 225px;
 	margin: -175px 1% 50px auto;
 	padding: 15px;
 	font-size: 12px;
@@ -205,8 +205,11 @@ ul#topnav li a:hover {
 
 #content {
 	text-align: left;
-	padding: 20px;
-	margin-right: 245px;
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 50px;
+
+	margin-right: 250px;
 }
 
 #content h1 {
