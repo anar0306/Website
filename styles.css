@@ -82,13 +82,15 @@ blockquote {
 
 #banner h1 {
 	font-size: 32px;
+	font-family: Consolas;
 }
 
-#banner h1 em {
-	font-style: normal;
-	text-decoration: none;
-	color: #111;
-}
+	#banner h1 em {
+		font-style: normal;
+		text-decoration: none;
+		color: #111;
+		font-family: Consolas;
+	}
 
 #show-menu {
 	display: none;
@@ -213,7 +215,7 @@ ul#topnav li a:hover {
 }
 
 #content h1 {
-	font: normal 18px Arial, sans-serif;
+	font: normal 18px Consolas;
 	padding: 0;
 }
 
