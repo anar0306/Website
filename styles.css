@@ -1,13 +1,13 @@
 /* Global Settings */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body {
-background: #000;
-background: -moz-linear-gradient(top, rgb(37, 153, 168) 0%, #a12424 75%, #000000 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, #7c803d), color-stop(75%, #000000), color-stop(100%, #000000));
-background: -webkit-linear-gradient(top, #7c803d 0%, #000000 75%, #000000 100%);
-background: -o-linear-gradient(top, #7c803d 0%, #000000 75%, #000000 100%);
-background: -ms-linear-gradient(top, #7c803d 0%, #000000 75%, #000000 100%);
-background: linear-gradient(to bottom, rgb(39, 39, 39) 0%, #1b1b1b 75%, #2c2c2c 100%);
+	background-image: url('bck_4.jpg');
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c803d', endColorstr='#000000', GradientType=0 );
 	color: #111;
 	margin: 0;
@@ -19,6 +19,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c803d', end
 h1 {
 	font-size: 20px;
 	line-height: 24px;
+	margin-bottom: 5px;
 }
 h2 {
 	font-size: 18px;
@@ -30,7 +31,7 @@ h3 {
 }
 a {
 	background-color: inherit;
-	color: #996;
+	color: #007185;
 	text-decoration: none;
 }
 a:hover {
@@ -38,15 +39,15 @@ a:hover {
 }
 blockquote {
 	background-color: inherit;
-	color: #999;
+	color: #999999;
 	font: italic 15px "Times New Roman", serif;
-	border-left: 5px solid #996;
+	border-left: 5px solid #007185;
 	padding: 2px 15px;
 }
 
 /* Wrapper Settings */
 #wrapper {
-	background: #fff;
+	background: #f7fafa;
 	border: none;
 	padding: 10px;
 	margin: 1% auto;
@@ -70,13 +71,13 @@ blockquote {
 	height: 100px;
 	border: 0px;
 	color: #fff;
-	background: #abab83;
+	background: #007185;
 	background: -moz-linear-gradient(top, #abab83 0%, #abab83 0%, #abab83 50%, #a1a172 51%, #a1a172 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, #abab83), color-stop(0%, #abab83), color-stop(50%, #abab83), color-stop(51%, #a1a172), color-stop(100%, #a1a172));
 	background: -webkit-linear-gradient(top, #abab83 0%, #abab83 0%, #abab83 50%, #a1a172 51%, #a1a172 100%);
 	background: -o-linear-gradient(top, #abab83 0%, #abab83 0%, #abab83 50%, #a1a172 51%, #a1a172 100%);
 	background: -ms-linear-gradient(top, #abab83 0%, #abab83 0%, #abab83 50%, #a1a172 51%, #a1a172 100%);
-	background: linear-gradient(to bottom, #abab83 0%, #abab83 0%, #abab83 50%, #a1a172 51%, #a1a172 100%);
+	background: linear-gradient(to bottom, #007185 0%, #abab83 0%, #abab83 50%, #a1a172 51%, #a1a172 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abab83', endColorstr='#a1a172', GradientType=0 );
 }
 
@@ -126,7 +127,7 @@ ul#topnav li {
 
 ul#topnav li a {
 	background: #333;
-	color: #999;
+	color: #fff;
 	border: none;
 	display: block;
 	margin-right: 5px;
@@ -137,16 +138,16 @@ ul#topnav li a {
 
 ul#topnav li a.active,
 ul#topnav li a.active:hover {
-	background: #fff;
+	background: #f7fafa;
 	color: #333;
 }
 
 ul#topnav li a:hover {
-	background: #cc9;
+	background: #ddd;
 	color: #111;
 }
   hr {
-	height: 0.5px;
+	height: 1px;
 	background-color: rgb(29, 29, 29);
 	border: none;
   }
